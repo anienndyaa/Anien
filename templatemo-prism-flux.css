@@ -299,13 +299,40 @@ body::after {
 .nav-menu a {
 	color: var(--text-secondary);
 	text-decoration: none;
-	padding: 12px 25px;
+	padding: 8px 16px;
 	transition: all 0.3s ease;
 	position: relative;
 	text-transform: uppercase;
 	font-weight: 500;
 	letter-spacing: 1px;
 	font-size: 14px;
+}
+
+#userInfo {
+	color: var(--text-secondary);
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 8px 16px;
+}
+
+#authArea button{
+	color: var(--text-secondary);
+	background-color: transparent;
+	text-decoration: none;
+	padding: 8px 16px;
+	transition: all 0.3s ease;
+	position: relative;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 1px;
+	font-size: 14px;
+	border: none;
+	cursor: pointer;
+}
+
+#authArea button:hover {
+	color: var(--accent-cyan);
 }
 
 .nav-menu a::before {
